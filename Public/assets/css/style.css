@@ -1,0 +1,296 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Bookman Old Style, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 30px;
+    background-color: lightskyblue;
+}
+
+
+.band {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin: 10px;
+}
+
+#menu {
+    margin-top: 20px;
+    display: none;
+    width: 60px;
+    text-align: center;
+}
+
+#list {
+    position: fixed;
+    width: 250px;
+    left: -256px;
+    z-index: 5;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: lightskyblue;
+}
+
+#close {
+    left: 105px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.script {
+    margin: 20px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.presentation {
+    text-align: justify;
+    font-size: 25px;
+    padding: 10px 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.link {
+    text-decoration-line: none;
+    color: black;
+}
+
+.link:hover {
+    color: white;
+}
+
+.new {
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 200px auto;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.criterion {
+    margin: 20px;
+}
+
+#error {
+    font-size: 30px;
+}
+
+.number {
+    display: none;
+}
+
+.validate {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 30px;
+}
+
+.validate:hover {
+    background-color: burlywood;
+}
+
+#login {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.adjusts {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info {
+    width: 250px;
+    font-size: 25px;
+}
+
+.click {
+    text-decoration-line: none;
+    color: #00a5cf;
+}
+
+.comment {
+    background-color: beige;
+    border-radius: 20px;
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.message {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.click:hover {
+    color: white;
+}
+
+#logo {
+    width: 100%;
+}
+
+.read {
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 100px auto;
+    width: 700px;
+    padding: 1px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.received {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mail {
+    text-align: left;
+}
+
+.text {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+option {
+    color: black;
+}
+
+.check {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#movies {
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.poster {
+    width: 300px;
+    margin: 30px;
+}
+
+.release {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.character {
+    font-weight: bolder;
+}
+
+.review {
+    font-size: 20px;
+    margin: 60px;
+    text-align: justify;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.save {
+    text-align: center;
+}
+
+.entitle {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.design {
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: white;
+    margin: 20px;
+}
+
+.design:hover {
+    color: white;
+    background-color: darkgray;
+}
+
+.style1 {
+    background-color: lightgray;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .normal {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .new {
+        width: 350px;
+    }
+
+    .presentation {
+        font-size: 20px;
+    }
+
+    .poster {
+        width: 300px;
+    }
+
+    .release {
+        font-size: 20px;
+    }
+
+    .comment {
+        width: 350px;
+    }
+}
